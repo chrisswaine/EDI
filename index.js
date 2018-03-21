@@ -24,7 +24,12 @@ fs.readdir('./commands/', (err, files) => {
 
 bot.on('ready', async () => {
     console.log(`${bot.user.username} is now running`);
-    console.log(`${bot.user.username} is online on ${bot.guilds.size} servers!`)
+    if (bot.guilds.size === 1) {
+        console.log(`${bot.user.username} is online on ${bot.guilds.size} server!`)
+    } else {
+        console.log(`${bot.user.username} is online on ${bot.guilds.size} servers!`)
+    }
+    
     bot.user.setActivity('you type', {type: 'WATCHING'});
 });
 
