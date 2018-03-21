@@ -5,10 +5,11 @@ module.exports.run = async (bot, message, args) => {
     try {
         let link = await bot.generateInvite(['ADMINISTRATOR'])
         let embed = new Discord.RichEmbed()
-        .setAuthor(message.author.username)
+        .setAuthor(`Hey ${message.author.username}!`)
         .setDescription('Use this link to invite EDI to your server!')
         .setURL(link)
         .setTitle('EDI invite link')
+        .setColor('#447ec4')
 
         message.channel.send(embed);
         
