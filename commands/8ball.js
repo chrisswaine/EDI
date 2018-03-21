@@ -5,7 +5,6 @@ module.exports.run = async (bot, message, args) => {
 
     let replies = [
         'As I See It Yes',
-        'Ask Again Later',
         'Better Not Tell You Now',
         'Don\'t Count On It',
         'Without A Doubt',
