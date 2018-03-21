@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ChrstnDmbchr/EDI/issues"
   },
-  "homepage": "https://github.com/ChrstnDmbchr/EDI#readme"
+  "homepage": "https://github.com/ChrstnDmbchr/EDI#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "nodemon": "^1.17.2"
+  }
 }
