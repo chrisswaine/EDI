@@ -15,7 +15,6 @@ module.exports.run = async (bot, message, args) => {
 
     let player = users[Math.floor(Math.random() * users.length)]
 
-
     const response = [
         `${player} will be the first to die this game!`,
         `Hmmm, considering how bad they are I think ${player} will be the first to bite it.`,
