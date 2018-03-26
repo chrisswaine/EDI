@@ -18,5 +18,6 @@ Current list of commands:
 - [x] 8ball: Gives a magic 8 ball response to a questions asked.
 - [x] firsttogo: One for the BR gamers. Generates a list of everyone in the same voice channel as you and will predict who will go down first.
 - [x] remindme: set a reminder and time and the bot will dm the user with the reminder after the elapsed time (in minutes)
+- [x] play:some dirty synthwave
 - [ ] joke: Tells a random joke.
 - [ ] 21: Game of 21 which persistantly tracks the stats of each user including winnings. 
