@@ -19,3 +19,4 @@ Current list of commands:
 - [x] firsttogo: One for the BR gamers. Generates a list of everyone in the same voice channel as you and will predict who will go down first. 
 - [ ] joke: Tells a random joke.
 - [ ] 21: Game of 21 which persistantly tracks the stats of each user including winnings. 
+- [ ] remindme: set a reminder and time and the bot will dm the user with the reminder after the elapsed time
