@@ -15,7 +15,7 @@ module.exports.run = async (bot, message, args) => {
     message.channel.send(embed);
 
     setTimeout(() => {
-        message.author.sendMessage(reminder);
+        message.author.send(reminder);
     }, time)
 
 }
