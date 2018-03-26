@@ -9,8 +9,8 @@ module.exports.run = async (bot, message, args) => {
 
     let embed = new Discord.RichEmbed()
     .setColor('#447ec4')
-    .setDescription(`I'll DM you when the time is up!`)
     .setTitle(`Hey ${message.author.username}, your reminder has now been set!`)
+    .setDescription(`I'll DM you your reminder when the time is up!`)
 
     message.channel.send(embed);
 
