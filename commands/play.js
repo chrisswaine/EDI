@@ -3,7 +3,6 @@ const ytdl = require('ytdl-core');
 
 module.exports.run = async (bot, message, args) => {
 
-
 	if(message.content === '!play some dirty synthwave') {
 		if (message.member.voiceChannel) {
 			const connection = await message.member.voiceChannel.join();
