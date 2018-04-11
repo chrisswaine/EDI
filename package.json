@@ -18,8 +18,12 @@
   },
   "homepage": "https://github.com/ChrstnDmbchr/EDI#readme",
   "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
     "discord.js": "^11.3.2",
+    "express": "^4.16.3",
     "ffmpeg-binaries": "^3.2.2-3",
+    "fs-extra": "^5.0.0",
     "node-opus": "^0.2.7",
     "nodemon": "^1.17.2",
     "ytdl-core": "^0.20.2"
